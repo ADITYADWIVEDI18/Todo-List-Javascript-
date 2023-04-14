@@ -7,7 +7,7 @@ const app = express()
 
 var items= [];
 var workItems=[];
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); 
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
